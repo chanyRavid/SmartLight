@@ -38,18 +38,28 @@ LiquidCrystal_I2C
 RtcDS1302
 📸 System Components
 ESP32 Controller
+
 ![esp32](./esp32.png)
+
 PIR Motion Sensor
+
 ![PIR](./PIR.png)
+
 LDR Light Sensor
+
 ![LDR](./LDR.png)
+
 RGB LED Ring (NeoPixel)
+
 ![leds](./leds.png)
+
 LCD Display (I2C)
 Potentiometer (manual brightness control)
 Button (color switching)
 RTC Clock Module (DS1302)
+
 ![CLOCK](./CLOCK.png)
+
 ⚙️ How It Works
 PIR sensor detects movement in the room
 LDR measures ambient light intensity
@@ -83,6 +93,7 @@ Set automatic shutdown time
 Send commands via WiFi in real time
 
 📸 Screenshots
+
 ![App Page](./App.png)
 
 🚀 Installation
