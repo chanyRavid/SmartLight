@@ -99,6 +99,7 @@ Send commands via WiFi in real time
 🚀 Installation
 
 git clone https://github.com/chanyRavid/SmartLight
+
 cd SmartLight
 
 Upload code to ESP32
