@@ -15,11 +15,17 @@ The project combines hardware (ESP32 + sensors) with software (embedded code + w
 ✨ Features
 
 🔐 Motion-based automatic lighting (PIR sensor)
+
 🌗 Adaptive brightness based on natural light (LDR sensor)
+
 🎨 RGB color control (NeoPixel LED ring)
+
 ⏰ Automatic scheduled shutdown (RTC clock)
+
 📱 Remote control via WiFi web/app
+
 🔘 Manual brightness & color control
+
 💡 Real-time status display on LCD screen
 
 🛠️ Technologies Used
@@ -97,10 +103,12 @@ Send commands via WiFi in real time
 ![App Page](./App.png)
 
 🚀 Installation
-
+```bash
 git clone https://github.com/chanyRavid/SmartLight
-
 cd SmartLight
+npm install
+npm start
+```
 
 Upload code to ESP32
 Connect hardware components
