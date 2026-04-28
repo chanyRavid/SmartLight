@@ -2,15 +2,19 @@
 
 🔍 Quick Overview
 
-Smart IoT lighting system based on ESP32
-Built with C++ (Arduino), React (app), and WiFi communication
-Includes sensors, automation, and remote control
+* Smart IoT lighting system based on ESP32
+* Built with C++ (Arduino), React (app), and WiFi communication
+* Includes sensors, automation, and remote control
+
+  ---
 
 🧠 Description
 
-SmartLight is an intelligent lighting system designed to reduce energy consumption and improve user comfort.
-The system automatically detects motion and ambient light levels and adjusts lighting accordingly. It also allows full manual control through buttons, potentiometer, and a mobile/web application.
-The project combines hardware (ESP32 + sensors) with software (embedded code + web app) to create a complete smart home solution.
+* SmartLight is an intelligent lighting system designed to reduce energy consumption and improve user comfort.
+* The system automatically detects motion and ambient light levels and adjusts lighting accordingly. It also allows full manual control through buttons, potentiometer, and a mobile/web application.
+* The project combines hardware (ESP32 + sensors) with software (embedded code + web app) to create a complete smart home solution.
+
+* ---
 
 ✨ Features
 
@@ -28,12 +32,16 @@ The project combines hardware (ESP32 + sensors) with software (embedded code + w
 
 💡 Real-time status display on LCD screen
 
+---
+
 🛠️ Technologies Used
 
 Microcontroller: ESP32
 Programming: C++ (Arduino)
 Frontend: React
 Communication: HTTP / WiFi
+
+---
 
 Libraries:
 
@@ -42,7 +50,7 @@ WebServer.h
 Adafruit_NeoPixel
 LiquidCrystal_I2C
 RtcDS1302
-📸 System Components
+System Components
 ESP32 Controller
 
 ![esp32](./esp32.png)
@@ -74,6 +82,8 @@ LED ring turns on with appropriate brightness and color
 User can override system manually (hardware or app)
 RTC module turns lights off automatically at scheduled time
 
+---
+
 🧩 Architecture
 
 Input Layer
@@ -90,6 +100,8 @@ Communication Layer
 WiFi connection
 HTTP requests between app and ESP32
 
+---
+
 📱 App Features
 
 Turn lights ON/OFF remotely
@@ -98,17 +110,20 @@ Adjust brightness level
 Set automatic shutdown time
 Send commands via WiFi in real time
 
+---
+
 📸 Screenshots
 
 ![App Page](./App.png)
 
-🚀 Installation
+## ⚙️ Installation
 ```bash
 git clone https://github.com/chanyRavid/SmartLight
 cd SmartLight
 npm install
 npm start
 ```
+---
 
 Upload code to ESP32
 Connect hardware components
@@ -121,6 +136,9 @@ Debugging sensor inaccuracies
 Working with RTC time synchronization
 Handling WiFi and server communication
 Integrating hardware + software into one system
+
+---
+
 🔮 Future Improvements
 
 AI-based user behavior learning
@@ -128,6 +146,8 @@ Motion-based security system
 Temperature-based automation (AC control)
 Voice control integration
 Cloud-based remote control system
+
+---
 
 👩‍💻 Author
 
